@@ -1,0 +1,27 @@
+.container {
+	width: 720px;
+    padding: 54px;
+    border: 6px solid #dddddd;
+}
+
+header {
+	text-align: left;
+	color: tomato;
+	font-family: Lato;
+	line-height: 1.5;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: left;
+	color: black;
+	font-family: Lato;
+	font-size: 18px; 
+}
+
+nav {
+	text-align: left;
+	color: rgb(255, 255, 255);
+	font-family: Lato;
+	text-decoration: line;
+}
