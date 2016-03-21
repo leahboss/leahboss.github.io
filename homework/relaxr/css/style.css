@@ -72,7 +72,7 @@ h1 {
 nav {
   float: right;
   display: inline-block;
-  padding: 20px 10px;
+  padding: 20px 50px;
 }
 
 nav a {
@@ -80,6 +80,7 @@ nav a {
   text-decoration: none;
   font-size: 24px;
   font-weight: 600;
+  padding: 20px;
 }
 
 #articles {
@@ -120,12 +121,12 @@ nav a {
   font-weight: 600;
 }
 
-#sideBar {
+#side {
   width: 240px;
   float: right;
 }
 
-.module h3 {
+.sidez h3 {
   font-size: 32px;
   font-weight: 800;
   color: #606161;
