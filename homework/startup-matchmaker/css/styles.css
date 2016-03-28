@@ -3,7 +3,17 @@
   margin: 0 auto;
 }
 
-/*HEADER STYLES*/
+body {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  background: #f0efef;
+}
+a {
+  text-decoration: none;
+}
+
 header {
 	background-color: black;
 	overflow: auto;
@@ -51,7 +61,7 @@ header nav a {
 
 #main {
 	height: 500px;
-	background: url(../img/coworking.jpg) no-repeat;
+	background: url(../img/coworking.jpg) center no-repeat;
 	background-size: cover;
 }
 
@@ -65,6 +75,7 @@ header nav a {
 
 #boxcontent {
     padding: 30px 20px;
+    margin: 0 auto;
 }
 
 #boxcontent h2 {
@@ -83,13 +94,54 @@ header nav a {
 #boxcontent a {
   font-family: Oswald;
   text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   background-color: yellow;
   color: black;
-  padding: 10px 25px;
+  padding: 12px;
   font-weight: 800;
   border-radius: 5px;
+  display: block;
 }
 
+.columns {
+	background: white;
+	overflow: hidden;
+}
 
+.column {
+	float: left;
+	width: 300px;
+	padding: 40px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: Merriweather, serif;
+	font-size: 25px;
+	text-align: left;
+	color: black;
+}
+
+.column .button {
+  font-family: Oswald;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #C6C6C6;
+  color: black;
+  padding: 12px;
+  font-weight: 800;
+  border-radius: 5px;
+  display: block;
+  }
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+}
 
 /*TAGLINE STYLES*/
