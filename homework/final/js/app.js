@@ -1,4 +1,4 @@
-var bigImg = $('#group.hug.jpg')
+var bigImg = $('#bigimage')
 
 $('.thumb').click(function () {
 	var newSrc = $(this).attr('src')
