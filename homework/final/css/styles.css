@@ -45,6 +45,7 @@ p {
   color: black;
   padding-left: 160px;
   padding-right: 160px;
+  color: rgb(102, 102, 102);
 }
 
 h2 {
@@ -55,14 +56,13 @@ h2 {
   color: rgb(220, 20, 60);
 }
 
-p {
-  color: rgb(102, 102, 102);
-}
-
 #wrapper {
   width: 960px;
   margin:0 auto;
   padding: 20px;
+}
+.imageWrapper {
+  overflow: auto;
 }
 
 #thumbnails{
@@ -79,6 +79,14 @@ p {
   width: 80px;
   display: block;
   cursor: pointer;
+}
+.content {
+  float: left;
+  width: 100px;
+  padding: 0px; 
+}
+#bigimage {
+  float: left;
 }
 
 footer {
