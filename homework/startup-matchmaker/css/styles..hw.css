@@ -1,0 +1,221 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  background: #f0efef;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+	background-color: black;
+	overflow: auto;
+	padding: 0 40px;
+	border-bottom: 5px solid yellow;
+}
+
+header h1 {
+	float: left;
+	color: yellow;
+	font-family: Merriweather, serif;
+}
+
+header nav {
+	float: right;
+	margin-top: 30px;
+	font-family: Oswald;
+}
+
+header nav a {
+	color: white;
+	text-decoration: none;
+	margin-left:  20px;
+}
+
+#tagline p {
+	text-align: center;
+	font-family: "Merriweather";
+	font-style: italic;
+	font-size: 20px;
+	background-color: #C6C6C6;
+	height: 35px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+#taste {
+	color: grey;
+	text-decoration: line-through;
+}
+
+#are {
+	border-bottom: 1px solid yellow;
+}
+
+#main {
+	height: 500px;
+	background: url(../img/coworking.jpg) center no-repeat;
+	background-size: cover;
+}
+
+#main aside {
+  max-width: 415px;
+  background-color: rgba(244,239,232,.8);
+  border: solid 1px black;
+  float: right;
+  margin: 30px 15px;
+}
+
+#boxcontent {
+    padding: 30px 20px;
+    margin: 0 auto;
+}
+
+#boxcontent h2 {
+  font-weight: 800;
+  font-size: 25px;
+  font-family: Oswald;
+}
+
+#boxcontent p {
+  padding: 8px 8px 50px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Source Sans Pro;
+}
+
+#boxcontent a {
+  font-family: Oswald;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  padding: 12px;
+  font-weight: 800;
+  border-radius: 5px;
+  display: block;
+}
+
+.columns {
+	background: white;
+	overflow: hidden;
+}
+
+.column {
+	float: left;
+	width: 300px;
+	padding: 40px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: Merriweather, serif;
+	font-size: 25px;
+	text-align: left;
+	color: black;
+}
+
+.column .button {
+  font-family: Oswald;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #C6C6C6;
+  color: black;
+  padding: 12px;
+  font-weight: 800;
+  border-radius: 5px;
+  display: block;
+  }
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+}
+
+#burger {
+  display: none;
+  cursor: pointer;
+  padding-top: 20px;
+}
+
+#mobile-nav {
+  display: none;
+}
+
+#mobile-nav a {
+  display: block;
+  background: rgb(222,222,222);
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+#mobile-nav a:hover {
+  background: black;
+  color: white;
+}
+
+@media (max-width: 875px) {
+  #container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #tagline p {
+    font-size: 16px;
+  }
+
+  #burger {
+    display: block;
+    float: right;
+    padding-top: 14px;
+  }
+
+  h2, p {
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin: 0 auto;
+  }
+
+  #main {
+    float: none;
+    width: 100%;
+  }
+
+  .column {
+   padding-left: 40px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+}
