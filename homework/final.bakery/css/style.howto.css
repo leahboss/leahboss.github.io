@@ -1,79 +1,76 @@
 header, section, footer, nav {
-				display: block;
-			}
+	display: block;
+}
 			
-			body {
-				color: #8B4513;
-				background-color: #f9f8f6;
-				background-position: center;
-				font-family: Raleway, Montserrat;
-				line-height: 22px;
-				margin: 0px;
-			}
+body {
+	color: #8B4513;
+	background-color: #f9f8f6;
+	background-position: center;
+	font-family: Raleway, Montserrat;
+	line-height: 22px;
+	margin: 0px;
+}
 			
-			.wrapper {
-				width: 940px;
-				margin: 20px auto 20px auto;
-				border: 2px solid #000000;
-				background-color: #ffffff;
-			}
+.wrapper {
+	width: 940px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+}
 			
-			header {
-				height: 160px;
-				padding-bottom: 40px;
-				}
+header {
+	height: 160px;
+	padding-bottom: 40px;
+}
+						
+nav, footer {
+	clear: both;
+	color: white;
+	background-color: #CDC5BF;
+	height: 30px;
+}
 			
-			
-			nav, footer {
-				clear: both;
-				color: white;
-				background-color: #CDC5BF;
-				height: 30px;
-			}
-			
-			nav ul {
-				margin: 0px;
-				padding: 5px 0px 5px 30px;
-				text-align: center;
-			}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+	text-align: center;
+}
 
-			nav li {
-				display: inline;
-				margin-right: 40px;
-			}
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
 			
-			nav li a {
-				color: #ffffff;
-			}
+nav li a {
+	color: #ffffff;
+}
 			
-			nav li a:hover, nav li a.current {
-				color: #8B4513;
-			}
+nav li a:hover, nav li a.current {
+	color: #8B4513;
+}
 			
+a {
+	color: #ee7600;
+	text-decoration: none;
+}
 			
-			a {
-				color: #ee7600;
-				text-decoration: none;
-			}
-			
-			h2 {
-				padding-left: 40px;
-				color: #8B4513;
-			}
+h2 {
+	padding-left: 40px;
+	color: #8B4513;
+}
 
-			p {
-				text-align: left;
-				color: #ee7600;
-				padding-left: 40px;
-				padding-right: 40px;
-			}
+p {
+	text-align: left;
+	color: #ee7600;
+	padding-left: 40px;
+	padding-right: 40px;
+}
 
-			.howtos {
-				text-align: center;
-			}
-			
-			
-			footer {
-				font-size: 80%;
-				padding: 7px 0px 0px 20px;
-			}
+.howtos {
+	text-align: center;
+}
+						
+footer {
+	font-size: 80%;
+	padding: 7px 0px 0px 20px;
+}
