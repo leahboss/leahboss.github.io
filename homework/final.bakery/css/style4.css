@@ -23,13 +23,6 @@ header {
 	padding-bottom: 40px;
 }
 			
-h1 {
-	text-indent: -9999px;
-	width: 940px;
-	height: 130px;
-	margin: 0px;
-}
-			
 nav, footer {
 	clear: both;
 	color: white;
@@ -98,8 +91,8 @@ a {
 	text-decoration: none;
 }
 			
-h1, h2, h3, h4 {
-	font-weight: normal;
+h2, h3 {
+	font-weight: bold;
 }
 			
 h2 {
@@ -114,6 +107,7 @@ h3 {
 			
 h4 {
 	color: #ee7600;
+	font-weight: normal
 }
 
 aside h2 {

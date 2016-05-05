@@ -59,6 +59,16 @@ h2 {
 	color: #8B4513;
 }
 
+p {
+	color:#ee7600;
+	font-style: bold;
+	text-align: center;
+}
+
+button {
+	background-color: blue;
+}
+
 footer {
 	font-size: 80%;
 	padding: 7px 0px 0px 20px;
