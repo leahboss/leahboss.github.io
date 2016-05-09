@@ -50,5 +50,4 @@ $(document).ready(function(){
 			.css('background-color', 'white')
 			.html(total);
 	});
-
 });

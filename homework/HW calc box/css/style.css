@@ -5,10 +5,6 @@
 	margin: 0px auto;
 }
 
-.clear {
-	clear: both;
-}
-
 .row div {
 	text-align: center;
 	width: 100px;
@@ -21,3 +17,8 @@
 	background-color: #cccccc;
 	cursor: pointer;
 }
+
+.clear {
+	clear: both;
+}
+
